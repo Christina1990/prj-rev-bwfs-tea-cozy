@@ -1,0 +1,119 @@
+header {
+  position:fixed;
+  background-color: black;
+  width:100%;
+  height: 69px;
+  z-index:1;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+}
+nav {
+text-align: right;
+flex-grow: 1;
+}
+nav span{
+  display: inline-block;
+  padding: 20px 10px;
+}
+a {
+  text-decoration: underline;
+}
+header img {
+  height: 50px;
+  padding-left:10px;
+}
+body {
+  margin: 0;
+  font-family: Helvetica;
+  font-size: 22px;
+  color:seashell;
+  background-color: black;
+  text-align:center;
+  opacity: 0.9;
+}
+#mission {
+  height: 700px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  padding-top: 70px;
+  opacity:0.9;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#mission .content {
+  background-color:black;
+  width:100%;
+  margin: auto;
+}
+h2 {
+  display: block;
+  font-size:1.5em;
+}
+h4 {
+  display:block;
+}
+.berryblitz img {
+  height: 200px;
+  width: 300px;
+  display:block;
+  margin: 10px;
+}
+.rum img {
+  height: 200px;
+  width: 300px;
+  display:block;
+  margin: 10px;
+}
+.donuts img {
+  height: 200px;
+  width: 300px;
+  display:block;
+  margin: 10px;
+}
+.myrtle img {
+  height: 200px;
+  width: 300px;
+  display:block;
+  margin: 10px;
+}
+.bedfort img {
+  height: 200px;
+  width: 300px;
+  display:block;
+  margin: 10px;
+}
+#locations {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  padding-top:70px;
+  width: 100%;
+}
+.location {
+  opacity:1.0;
+  padding: 10px;
+  margin: 5px 20px;
+  background-color:black;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  width: 300px;
+}
+#locations flex-container {
+  margin:auto;
+  width: 1100px;
+}
+.flex-container .locations {
+  padding-top: 5px;
+}
+#contact {
+  height: 200px;
+}
+footer {
+  text-align: left;
+  padding-left: 20px;
+}
+div {
+  display:block;
+}
